@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <title>jQuery Practice</title>
+    <link rel="stylesheet" href="Ninja jQuery.css">
+    <script src= "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('img').click(function(){
+                $(this).hide()
+            });
+            
+            $('button').click(function(){
+                $('img').show()
+            });
+
+        });
+  
+    </script>
+</head>
+<body>
+    <h3>jQuery - assignment 1</h3>
+    <div id="wrapper">
+        <img src="cute images/adventure-cat.png">
+        <img src="cute images/aidorucat.png">
+        <img src="cute images/dojocat.png" alt="dojo cat">
+        <img src="cute images/github.png" alt="github">
+        <img src="cute images/ironcat.png" alt="ironcat">
+        <img src="cute images/visionary.png" alt="visionary">
+        <img src="cute images/mario.png">
+        <img src="cute images/cooler.png">
+    </div>
+    <button>Restore</button>
+</body>
+</html>
+

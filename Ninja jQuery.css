@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1000px;
+
+}
+
+h3{
+    display: block;
+    padding-left: 15px;
+}
+
+#wrapper{
+    padding: 15px;
+    width: 80%;
+ 
+}
+
+img{
+    
+    width: 150px;
+    height: 150px;
+    border: 2px black;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    
+}
+
+button {
+    color: white;
+    background-color: green;
+    padding: 5px;
+    box-shadow: 2px 2px 2px black;
+
+}
